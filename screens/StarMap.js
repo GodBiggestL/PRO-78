@@ -22,24 +22,24 @@ export default class StarMapScreen extends Component {
                 style={styles.titleText}
                 // style={{styles.titleText}}
                 // style=styles.titleText
-                // style={titleText}
+               // style={titleText}
                 >Star Map</Text>
 
                     <TextInput
-                       // style={styles.inputStyle}
-                       // placeholder="Enter your longitude"
-                        //placeholderTextColor="white"
+                        style={styles.inputStyle}
+                        placeholder="Enter your longitude"
+                        placeholderTextColor="white"
 
                         onChangeText={(text) => {
                             this.State({
                                longitude: text
                              })
-                         }}
+                        }}
 
                         // onChangeText={(text) => {
-                        //     this.setState(
-                        //         longitude: text
-                        //     )
+                           //  this.setState(
+                           //      longitude: text
+                          //   )
                         // }}
 
                         // onChangeText={() => {
