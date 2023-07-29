@@ -31,7 +31,7 @@ export default class StarMapScreen extends Component {
                         placeholderTextColor="white"
 
                         onChangeText={(text) => {
-                            this.State({
+                            this.setState({
                                longitude: text
                              })
                         }}
